@@ -1,3 +1,3 @@
 require("kpranoto.remap");
-print("hello from kpranoto");
 
+vim.api.nvim_command('set nu rnu')
