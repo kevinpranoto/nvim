@@ -1,0 +1,3 @@
+require("kpranoto");
+print("hello");
+
