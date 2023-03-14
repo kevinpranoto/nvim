@@ -4,6 +4,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     use 'mfussenegger/nvim-jdtls'
 	-- Packer can manage itself
+    use "terrortylor/nvim-comment"
 	use 'wbthomason/packer.nvim'
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -24,7 +25,7 @@ return require('packer').startup(function(use)
 	}
 
 	use {
-		"akinsho/toggleterm.nvim", 
+		"akinsho/toggleterm.nvim",
 		tag = '*',
 		config = function()
 			require("toggleterm").setup()

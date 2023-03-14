@@ -201,4 +201,11 @@ git_status = {
         }
     }
 }
-        })
+})
+
+-- neo-tree
+--vim.keymap.set("n", "<leader>e", vim.cmd.Neotree);
+vim.keymap.set("n", "<leader>x", ":Neotree close<cr>");
+-- vim.keymap.set("n", "|", ":Neotree reveal<cr>");
+-- vim.keymap.set("n", "<leader>b", ":Neotree toggle show buffers right<cr>");
+-- vim.keymap.set("n", "<leader>s", ":Neotree float git_status<cr>");
